@@ -23,7 +23,7 @@ async function main() {
       errorLogger,
       emptyModelLogger,
       progressTracker,
-      21 // Target project ID
+      YOUR_PROJECT_ID // Replace with your project ID (e.g., 21)
     );
     
     const manifestProcessor = new ManifestProcessor(

@@ -2,7 +2,8 @@ import pLimit from 'p-limit';
 import pRetry from 'p-retry';
 import { IIIFOrderedCollection, IIIFOrderedCollectionPage, Manifest } from '../types';
 
-const API_ENDPOINT = 'https://madoc.nlw.digtest.co.uk/s/tours-in-wales/madoc/api/activity/curated-project-manifests/stream/mini-illustrated-tours-in-wales/changes';
+const API_ENDPOINT = 'YOUR_DISCOVERY_API_URL';
+// Example: https://example.org/iiif/activity/collection
 const RATE_LIMIT = 5; // Concurrent requests
 const limit = pLimit(RATE_LIMIT);
 
